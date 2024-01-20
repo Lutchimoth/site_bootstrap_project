@@ -75,6 +75,10 @@ footer{
         max-width: 100%;
     }
 
+    .carousel-item h2{
+        font-size: 1.1em;
+    }
+
     .container.container-articles{
         padding: 0;
     }
