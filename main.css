@@ -1,0 +1,142 @@
+.carousel-caption h2{
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.carousel-item > .carousel-caption {
+    right: 1%;
+    left: 5%;
+    bottom: 10px;
+}
+
+.card-body .origem{
+    font-size: 14px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+.container-carousel > .row{
+    margin-top: 3%;
+}
+
+.container-articles{
+    margin-top: 3%;
+}
+
+.col-4{
+    margin-bottom: 2%;
+}
+
+footer{
+    text-align: center;
+}
+
+.nav .nav-link{
+    color:#272727;
+    transition: .3s;
+}
+
+.nav-item{
+    padding: 0 4px;
+}
+
+
+#frase-do-dia-mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px){
+    header h1{
+        font-size: 2em;
+    }
+
+    #inicio {
+        display: grid;
+    }
+
+    #frase-do-dia{
+        display: none;
+    }
+
+    #frase-do-dia-mobile{
+        display: block;
+        margin-top: 4%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #carousel{
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .container.container-articles{
+        padding: 0;
+    }
+
+    .container #row-destaque{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        row-gap: 1%;
+        column-gap: 2%;
+    }
+
+    .container #row-destaque .col-4{
+        max-width: 100%;
+        padding-top: 2%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    header h1{
+        font-size: 2.3em;
+    }
+    
+    #inicio {
+        display: grid;
+    }
+
+    #frase-do-dia{
+        display: none;
+    }
+
+    #frase-do-dia-mobile{
+        display: block;
+        margin-top: 4%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #carousel{
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .container.container-articles{
+        padding: 0;
+    }
+
+    .container #row-destaque{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 1%;
+        column-gap: 0.5%;
+    }
+
+    .container #row-destaque .col-4{
+        max-width: 100%;
+        padding-top: 2%;
+        margin: 0 auto;
+    }
+
+
+    .carousel-item h2{
+        font-size: 1.1em;
+    }
+}
